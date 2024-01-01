@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.makeWhmcsEmbed=void 0;const makeWhmcsEmbed=(e,m,s)=>e.embed({title:"Whmcs Settings",fields:[{name:"WHMCS URL",value:s.whmcsApiUrl},{name:"CHANNEL",value:`<#${s.whmcsAdminLogsChannel}>`}]},{settings:m});exports.makeWhmcsEmbed=makeWhmcsEmbed;

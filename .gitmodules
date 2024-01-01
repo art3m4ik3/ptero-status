@@ -1,0 +1,4 @@
+[submodule "locales"]
+	path = locales
+	url = https://github.com/Linux123123/pteranodon-lng.git
+	branch=main

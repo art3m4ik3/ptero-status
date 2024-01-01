@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.clientAdminFields=void 0;const clientAdminFields=e=>[{name:"​",value:"**CLIENT:**",inline:!1},{name:"Client",value:e.fullname,inline:!0},{name:"Notes",value:e.notes?e.notes:"NONE",inline:!0},{name:"STATUS",value:e.status,inline:!0}];exports.clientAdminFields=clientAdminFields;

@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.run=void 0;const run=(e,s)=>{s.get("/",((s,t)=>{t.status(200).send({status:"online",version:e.config.version})}))};exports.run=run;

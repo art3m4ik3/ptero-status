@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const Bot_1=require("./classes/Bot"),config_1=require("./config/config");new Bot_1.Bot(config_1.config).start();

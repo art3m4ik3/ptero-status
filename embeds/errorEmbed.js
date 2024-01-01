@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.makeErrorEmbed=void 0;const makeErrorEmbed=(e,r,o)=>("Unexpected token < in JSON at position 0"===o.message&&(o.message=e.t("errors.server_down")),e.embed({title:`🛑 ${e.t("errors.error_occurred")} 🛑`,description:o.message},{settings:r}));exports.makeErrorEmbed=makeErrorEmbed;

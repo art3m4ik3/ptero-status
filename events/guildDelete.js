@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.run=void 0;const run=async(e,t)=>{t.available&&(e.logger.cmd(`[GUILD LEAVE] ${t.name} (${t.id}) removed the bot.`),e.settings.has(t.id)&&e.settings.delete(t.id))};exports.run=run;

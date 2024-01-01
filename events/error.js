@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.run=void 0;const run=(r,e)=>{r.logger.error(`An error has accured: ${e}`),console.error(e)};exports.run=run;

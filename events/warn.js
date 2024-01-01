@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.run=void 0;const run=async(r,e)=>{r.logger.warn(`A warning has accured: ${e}`),console.warn(e)};exports.run=run;
